@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Alimentação natural · Aibou</title>
+<meta name="description" content="Alimentação natural Aibou: comida completa para cães, cozida em fogo baixo, em latas de 300 g. Preço por lata em todas as quantidades.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bar">pet wellness, começando pela comida · frete grátis acima de R$ 299</div>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="aibou, início"><img src="assets/img/logo-aibou.png" alt="aibou" height="26"></a>
+    <nav aria-label="Principal">
+      <a href="index.html#produtos" aria-current="page">produtos</a>
+      <a href="faq.html">dúvidas</a>
+    </nav>
+    <a class="btn small" href="escolha.html">comece por aqui</a>
+      </div>
+</header>
+
+<main>
+
+<!-- PRIMEIRA TELA: galeria, nome, preço, preço por lata, sabor, escada, botão, garantia, prazo -->
+<div class="pdp">
+  <div>
+    <div class="gallery photo" aria-live="polite">
+      <img id="stage-img" src="assets/img/ph-40c392bd.jpg" alt="Lata Aibou, receita de frango">
+    </div>
+    <div class="thumbs" role="group" aria-label="Receitas">
+      <button type="button" data-img="assets/img/ph-40c392bd.jpg" data-alt="Lata Aibou, receita de frango" aria-pressed="true"><img src="assets/img/ph-40c392bd.jpg" alt=""></button>
+      <button type="button" data-img="assets/img/ph-6cfd43d6.jpg" data-alt="Lata Aibou, receita de carne" aria-pressed="false"><img src="assets/img/ph-6cfd43d6.jpg" alt=""></button>
+      <button type="button" data-img="assets/img/ph-84abe67b.jpg" data-alt="Lata Aibou, receita de cordeiro" aria-pressed="false"><img src="assets/img/ph-84abe67b.jpg" alt=""></button>
+    </div>
+  </div>
+
+  <div>
+    <span class="eyebrow">alimentação natural para cães</span>
+    <h1>alimentação natural</h1>
+    <p class="lede">comida completa, cozida em fogo baixo e nunca extrusada. carne, vísceras e legumes cozidos devagar, porcionados na lata.</p>
+    <p class="price-line">R$ 26,90 <span class="small" style="font-family:var(--sans)">· por lata de 300 g</span></p>
+
+    <fieldset class="option" style="border:0;padding:0">
+      <legend>sabor</legend>
+      <div class="chips">
+        <label><input type="radio" name="sabor" value="frango" checked><span>frango</span></label>
+        <label><input type="radio" name="sabor" value="carne"><span>carne</span></label>
+        <label><input type="radio" name="sabor" value="cordeiro"><span>cordeiro</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="option" id="packs" style="border:0;padding:0">
+      <legend>quantidade · preço por lata em cada faixa</legend>
+      <div class="ladder" id="ladder">
+        <button type="button" data-lata="25,55" data-econ="8,07" aria-pressed="true"><b>6</b><small>R$ 153,33 · 5% off</small></button>
+        <button type="button" data-lata="24,21" data-econ="32,28" aria-pressed="false"><b>12</b><small>R$ 290,52 · 10% off</small></button>
+        <button type="button" data-lata="22,86" data-econ="96,84" aria-pressed="false"><b>24</b><small>R$ 548,76 · 15% off</small></button>
+        <button type="button" disabled><b>+</b><small>a definir</small></button>
+      </div>
+      <p class="small" id="ladder-note" style="margin-top:12px">6 latas: R$ 25,55 por lata · economia de R$ 8,07</p>
+    </fieldset>
+
+    <a class="btn" href="escolha.html">adicionar ao carrinho</a>
+    <p class="guarantee">se ele não comer, devolvemos o valor.</p>
+    <p class="prazo" data-prazo>chega entre [data] e [data] · data exata no checkout</p>
+  </div>
+</div>
+
+<!-- O QUE TEM DENTRO -->
+<section class="band-blue ing-band">
+  <div class="wrap">
+    <span class="eyebrow">o que tem dentro</span>
+    <h2>tudo o que vai no pote, você reconhece.</h2>
+    <div class="ing5">
+      <figure><img src="assets/img/ing-carne.jpg" alt="Carne e vísceras em pedaços" loading="lazy"><figcaption><b>carne e vísceras</b><span>proteína animal em pedaços, com fígado e coração.</span></figcaption></figure>
+      <figure><img src="assets/img/ing-batata.jpg" alt="Batata-doce cortada" loading="lazy"><figcaption><b>batata-doce</b><span>carboidrato de absorção lenta, fonte de fibra e vitaminas A e C.</span></figcaption></figure>
+      <figure><img src="assets/img/ing-cenoura.jpg" alt="Cenouras fatiadas" loading="lazy"><figcaption><b>cenoura</b><span>fibra, betacaroteno e potássio.</span></figcaption></figure>
+      <figure><img src="assets/img/ing-ervilha.jpg" alt="Ervilha in natura na vagem" loading="lazy"><figcaption><b>ervilha in natura</b><span>proteína vegetal, fibra e vitaminas do complexo B.</span></figcaption></figure>
+      <figure><img src="assets/img/ing-espinafre.jpg" alt="Folhas de espinafre" loading="lazy"><figcaption><b>espinafre</b><span>ferro, antioxidantes e vitaminas A, C e K.</span></figcaption></figure>
+    </div>
+    <p class="notin" style="color:#fff;margin-top:32px">não tem farinha animal, subproduto, corante, aroma artificial nem açúcar adicionado.</p>
+  </div>
+</section>
+
+<!-- O QUE É -->
+<section class="tint" style="padding-block:clamp(48px,6vw,80px)">
+  <div class="wrap" style="max-width:860px">
+    <span class="eyebrow">o que é</span>
+    <h2 style="margin:14px 0 18px">comida de verdade para o cão que come a mesma coisa todos os dias.</h2>
+    <p class="lede">carne, vísceras e legumes cozidos devagar, porcionados na lata. sem freezer, sem balança, sem receita.</p>
+    <p class="lede" style="margin-top:14px">extrusão é pressão e calor alto pra virar bolinha. essa é cozida devagar.</p>
+  </div>
+</section>
+
+<!-- MIX FEEDING -->
+<section class="tint" id="mix" style="padding-block:clamp(48px,6vw,80px)">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">sem tudo ou nada</span>
+      <h2 style="margin-top:14px">comece do jeito que funciona para vocês.</h2>
+    </div>
+    <div class="mix3">
+      <div class="m"><small>por cima</small><h3>uma porção a mais</h3><p>uma porção de aibou junto da refeição de sempre.</p></div>
+      <div class="m"><small>meio a meio</small><h3>metade e metade</h3><p>aibou e a alimentação que ele já conhece, na mesma tigela.</p></div>
+      <div class="m"><small>100% aibou</small><h3>a refeição completa</h3><p>com transição gradual. o guia impresso na caixa mostra o passo a passo em sete dias.</p></div>
+    </div>
+    <p class="small center" style="margin-top:24px">se ele tem alguma condição de saúde, converse com o médico-veterinário que o acompanha antes de trocar a dieta.</p>
+  </div>
+</section>
+
+<!-- CALCULADORA -->
+<section class="band-blue calc-band" id="calculadora">
+  <div class="wrap calc-wrap">
+    <div>
+      <span class="eyebrow">quanto ele precisa?</span>
+      <h2>calcule a quantidade para o seu cão.</h2>
+      <p class="lede">escolha a proporção e o porte, e veja quantas latas ele precisa.</p>
+    </div>
+    <button class="btn" type="button" id="calc-open" aria-expanded="false" aria-controls="calc-box">abrir calculadora</button>
+  </div>
+  <div class="wrap">
+    <div id="calc-box" hidden>
+      <iframe class="calc-frame" src="escolha.html" title="Calculadora de quantidade" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section style="padding-block:clamp(48px,6vw,80px)">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">avaliações</span>
+      <h2 style="margin-top:14px">o que os tutores estão contando.</h2>
+    </div>
+    <div class="com-grid">
+      <div class="ph-note">avaliação escrita · a inserir</div>
+      <div class="ph-note">vídeo de tutor · a inserir</div>
+      <div class="ph-note">vídeo de influenciador PET · a inserir</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding-block:40px;text-align:center">
+  <div class="wrap">
+    <a class="btn ghost" href="faq.html">tem uma dúvida? encontre sua resposta nas perguntas frequentes</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-top">
+      <form class="news" id="news">
+        <label for="news-email">newsletter</label>
+        <div class="news-field">
+          <input id="news-email" type="email" placeholder="email" required>
+          <button type="submit" aria-label="Assinar newsletter">→</button>
+        </div>
+        <small id="news-msg" role="status"></small>
+      </form>
+      <div class="foot-cols">
+        <div><a href="produto.html">alimentação natural</a><a href="produto.html#packs">packs por sabor</a></div>
+        <div><a href="bowl.html">bowl</a><a href="faq.html">perguntas frequentes</a><a href="https://www.instagram.com/aibou.club/" target="_blank" rel="noopener">instagram</a></div>
+      </div>
+    </div>
+    <img class="foot-logo" src="assets/img/logo-aibou.png" alt="aibou">
+    <div class="foot-bottom">
+      <span>todos os direitos reservados © 2026</span>
+      <span>cuidar é dar o melhor. todos os dias.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" role="region" aria-label="Compra rápida">
+  <div><small>alimentação natural · lata</small><b>a partir de R$ 26,90</b></div>
+  <a class="btn" href="escolha.html">adicionar</a>
+</div>
+
+<script>
+// galeria
+document.querySelectorAll('.thumbs button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var img = document.getElementById('stage-img');
+    img.src = b.dataset.img;
+    img.alt = b.dataset.alt;
+    document.querySelectorAll('.thumbs button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+  });
+});
+// escada: preço por lata e economia
+document.querySelectorAll('#ladder button:not([disabled])').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('#ladder button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    document.getElementById('ladder-note').textContent = b.querySelector('b').textContent + ' latas: R$ ' + b.dataset.lata + ' por lata · economia de R$ ' + b.dataset.econ;
+  });
+});
+// calculadora: resultado a definir pela aibou (depende dos números de consumo)
+document.getElementById('calc-btn').addEventListener('click', function () {
+  var prop = document.querySelector('input[name="calc-prop"]:checked').value;
+  var porte = document.querySelector('input[name="calc-porte"]:checked').value;
+  document.getElementById('calc-result').textContent = 'proporção ' + prop + '% · porte ' + porte + ' · quantidade de latas: a definir pela aibou';
+});
+// calculadora: abre e fecha
+(function () {
+  var btn = document.getElementById('calc-open'), box = document.getElementById('calc-box');
+  btn.addEventListener('click', function () {
+    var open = box.hidden;
+    box.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.textContent = open ? 'fechar calculadora' : 'abrir calculadora';
+  });
+})();
+// prazo: janela estimada
+(function () {
+  function fmt(d) { return ('0' + d.getDate()).slice(-2) + '/' + ('0' + (d.getMonth() + 1)).slice(-2); }
+  var a = new Date(), b = new Date();
+  a.setDate(a.getDate() + 4);
+  b.setDate(b.getDate() + 6);
+  document.querySelectorAll('[data-prazo]').forEach(function (el) {
+    el.textContent = 'chega entre ' + fmt(a) + ' e ' + fmt(b) + ' · data exata no checkout';
+  });
+})();
+document.getElementById('news').addEventListener('submit', function (e) {
+  e.preventDefault();
+  document.getElementById('news-msg').textContent = 'protótipo: o cadastro ainda não está ativo.';
+});
+</script>
+</body>
+</html>
